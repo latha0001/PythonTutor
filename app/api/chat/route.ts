@@ -1,5 +1,6 @@
 import OpenAI from "openai"
-import { OpenAIStream, StreamingTextResponse } from "ai"
+import { StreamingTextResponse } from "ai/edge"
+import { OpenAIStream } from "ai/streams"
 
 export const runtime = "edge"
 
