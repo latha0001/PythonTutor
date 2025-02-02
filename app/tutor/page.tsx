@@ -2,8 +2,6 @@
 
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { useCompletion } from "ai/react"
@@ -71,7 +69,7 @@ export default function Tutor() {
       </div>
       {completion && (
         <div className="mt-4 p-4 bg-gray-100 rounded-lg">
-          <h2 className="text-xl font-semibold mb-2">Tutor's Response:</h2>
+          <h2 className="text-xl font-semibold mb-2">Tutor&apos;s Response:</h2>
           <p className="whitespace-pre-wrap">{completion}</p>
         </div>
       )}
